@@ -4,7 +4,7 @@ let editDialog = document.getElementById("editDialog");
 let deleteDialog = document.getElementById("deleteDialog");
 
 
-const blogArray = [];
+let blogArray = [];
 
 let inputTitle = "";
 let inputDate = "";
@@ -136,5 +136,8 @@ document.addEventListener("beforeunload", () => {
 window.addEventListener("load", () => {
     let blogArrayString = localStorage.getItem("blogArray");
     blogArray = JSON.parse(blogArrayString);
+    if(blogArray === null) {
+        blogArray = [];
+    }
     updatePostings();
 });
