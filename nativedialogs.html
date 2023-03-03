@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Sean Fuhrman's Personal Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Sean Fuhrman's Personal Website">
+        <link rel="icon" href="/favicon.ico">
+        <script type="module" src="/scripts/purify.min.js"></script>
+    </head>
+    <body>
+        
+        <button id="alert" type="button"> Alert</button>
+        <button id="confirm" type="button"> Confirm</button>
+        <button id="prompt" type="button"> Prompt</button>
+        <button id="saferPrompt" type="button"> Safer Prompt</button>
+
+        <hr> 
+
+        <output></output>
+    </body>
+
+    <script>
+
+        //alert button
+        document.getElementById("alert").addEventListener("click", (event) => {
+            alert('Alert Generated');
+        });
+        
+        //confirm button
+        function confirmResponse(event) {
+            res = confirm("Can you confirm this?");
+            document.getElementsByTagName("output")[0].innerText = `Confirm Result: ${res}`;
+        }
+
+        document.getElementById("confirm").addEventListener("click", confirmResponse)
+
+        //prompt button
+        function promptResponse(event) {
+            res = prompt("Can you respond to this prompt?")
+            document.getElementsByTagName("output")[0].innerHTML = `Prompt Result: ${res}`;
+        }
+
+        document.getElementById("prompt").addEventListener("click", promptResponse);
+
+        //safe prompt
+        function clean (strings, dirty) {
+            safe = DOMPurify.sanitize(dirty);
+            return `${strings[0]}${safe}`
+        }
+
+        function safePromptResponse(event) {
+            res = prompt("Can you respond to this safe prompt?")
+            document.getElementsByTagName("output")[0].innerHTML = clean`Safe Prompt Result: ${res}`;
+        }
+
+        document.getElementById("saferPrompt").addEventListener("click", safePromptResponse);
+
+    </script>
+</html>

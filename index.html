@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Sean Fuhrman's Personal Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Sean Fuhrman's Personal Website">
+        <link rel="icon" href="/favicon.ico">
+        <link rel="stylesheet" href="/style/index.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="/index.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M5 21q-.825 0-1.413-.587Q3 19.825 3 19V5q0-.825.587-1.413Q4.175 3 5 3h14q.825 0 1.413.587Q21 4.175 21 5v14q0 .825-.587 1.413Q19.825 21 19 21Zm0-2h14V5H5v14Zm0 0V5v14Z"/></svg>
+                        Home</a></li>
+                    <li><a href="#about">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M5 21q-.825 0-1.413-.587Q3 19.825 3 19V5q0-.825.587-1.413Q4.175 3 5 3h14q.825 0 1.413.587Q21 4.175 21 5v14q0 .825-.587 1.413Q19.825 21 19 21Zm0-2h14V5H5v14Zm0 0V5v14Z"/></svg>
+                        About</a></li>
+                    <li><a href="#projects">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M5 21q-.825 0-1.413-.587Q3 19.825 3 19V5q0-.825.587-1.413Q4.175 3 5 3h14q.825 0 1.413.587Q21 4.175 21 5v14q0 .825-.587 1.413Q19.825 21 19 21Zm0-2h14V5H5v14Zm0 0V5v14Z"/></svg>
+                        Projects</a></li>
+                    <li><a href="#education">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M5 21q-.825 0-1.413-.587Q3 19.825 3 19V5q0-.825.587-1.413Q4.175 3 5 3h14q.825 0 1.413.587Q21 4.175 21 5v14q0 .825-.587 1.413Q19.825 21 19 21Zm0-2h14V5H5v14Zm0 0V5v14Z"/></svg>
+                        Experience</a></li>
+                    <li><a href="#contact">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M5 21q-.825 0-1.413-.587Q3 19.825 3 19V5q0-.825.587-1.413Q4.175 3 5 3h14q.825 0 1.413.587Q21 4.175 21 5v14q0 .825-.587 1.413Q19.825 21 19 21Zm0-2h14V5H5v14Zm0 0V5v14Z"/></svg>
+                        Contact</a></li>
+                </ul>
+                <div id="socials"> <!--to hold socials links-->
+                    <a class="imageLink" href="https://github.com/Sean-Fuhrman" title="My github">
+                        <svg width="50px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <title>github</title>
+                            <path fill="currentColor" d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" />
+                        </svg>
+                    </a>
+                    <a class="imageLink" href="https://www.linkedin.com/in/sean-fuhrman/" title="My linkedin">
+                        <svg width="50px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <title>linkedin</title>
+                            <path fill="currentColor" d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M18.5 18.5V13.2A3.26 3.26 0 0 0 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17A1.4 1.4 0 0 1 15.71 13.57V18.5H18.5M6.88 8.56A1.68 1.68 0 0 0 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19A1.69 1.69 0 0 0 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56M8.27 18.5V10.13H5.5V18.5H8.27Z" />
+                        </svg>
+                    </a>
+                    <a class="imageLink" href="mailto:seantfuhrman@gmail.com" title="My email">
+                        <svg width="50px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <title>gmail</title>
+                            <path fill="currentColor" d="M20,18H18V9.25L12,13L6,9.25V18H4V6H5.2L12,10.25L18.8,6H20M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" />
+                        </svg>
+                    </a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="homepage">
+                <section id="intro">
+                    <picture id="portrait">
+                        <source srcset="/assets/High_Res_Portrait.webp" media="(min-width: 800px)" type="image/webp" />
+                        <source srcset="/assets/Mid_Res_Portrait.webp" media="(min-width: 600px)" type="image/webp" />
+                        <source srcset="/assets/Low_Res_Portrait.webp" media="(min-width: 400px)" type="image/webp"/>
+                        <img src="/assets/Low_Res_Portrait.webp" alt="Self-Portrait" />
+                    </picture>
+                 
+                    <h1 id="hiText">
+                        <em id="myName">
+                           Sean Fuhrman
+                        </em>
+                        Computer Engineer <br> 
+                        University of California San Diego
+                        <i id="cursor">_</i>
+                    </h1>
+                </section>
+                <svg id="eNt14p7EUrW1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="50 90 200 150" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+                    <style>
+                    #eNt14p7EUrW2 {animation: eNt14p7EUrW2_c_o 3900ms linear 1 normal forwards}@keyframes eNt14p7EUrW2_c_o { 0% {opacity: 0;animation-timing-function: cubic-bezier(0.25,1,0.25,1)} 2.564103% {opacity: 1} 100% {opacity: 1}} #eNt14p7EUrW3 {animation: eNt14p7EUrW3_c_o 3900ms linear 1 normal forwards}@keyframes eNt14p7EUrW3_c_o { 0% {opacity: 0} 79.487179% {opacity: 0;animation-timing-function: cubic-bezier(0.25,1,0.25,1)} 82.051282% {opacity: 1} 100% {opacity: 1}} #eNt14p7EUrW4 {animation: eNt14p7EUrW4_c_o 3900ms linear 1 normal forwards}@keyframes eNt14p7EUrW4_c_o { 0% {opacity: 0} 94.871795% {opacity: 0;animation-timing-function: cubic-bezier(0.25,1,0.25,1)} 97.435897% {opacity: 1} 100% {opacity: 1}} #eNt14p7EUrW5 {animation: eNt14p7EUrW5_c_o 3900ms linear 1 normal forwards}@keyframes eNt14p7EUrW5_c_o { 0% {opacity: 0} 84.615385% {opacity: 0;animation-timing-function: cubic-bezier(0.25,1,0.25,1)} 87.179487% {opacity: 1} 100% {opacity: 1}} #eNt14p7EUrW6_ts {animation: eNt14p7EUrW6_ts__ts 3900ms linear 1 normal forwards}@keyframes eNt14p7EUrW6_ts__ts { 0% {transform: translate(65.54745px,174.175825px) rotate(270deg) scale(0.813218,0)} 5.128205% {transform: translate(65.54745px,174.175825px) rotate(270deg) scale(0.813218,0)} 15.384615% {transform: translate(65.54745px,174.175825px) rotate(270deg) scale(0.813218,1)} 100% {transform: translate(65.54745px,174.175825px) rotate(270deg) scale(0.813218,1)}} #eNt14p7EUrW7_ts {animation: eNt14p7EUrW7_ts__ts 3900ms linear 1 normal forwards}@keyframes eNt14p7EUrW7_ts__ts { 0% {transform: translate(176.330967px,174.262111px) rotate(180deg) scale(0.813218,0)} 15.384615% {transform: translate(176.330967px,174.262111px) rotate(180deg) scale(0.813218,0)} 25.641026% {transform: translate(176.330967px,174.262111px) rotate(180deg) scale(0.813218,0.534623)} 100% {transform: translate(176.330967px,174.262111px) rotate(180deg) scale(0.813218,0.534623)}} #eNt14p7EUrW8_ts {animation: eNt14p7EUrW8_ts__ts 3900ms linear 1 normal forwards}@keyframes eNt14p7EUrW8_ts__ts { 0% {transform: translate(118.339291px,174.160727px) rotate(180deg) scale(0.813218,0)} 48.717949% {transform: translate(118.339291px,174.160727px) rotate(180deg) scale(0.813218,0)} 56.410256% {transform: translate(118.339291px,174.160727px) rotate(180deg) scale(0.813218,0.145766)} 100% {transform: translate(118.339291px,174.160727px) rotate(180deg) scale(0.813218,0.145766)}} #eNt14p7EUrW9_ts {animation: eNt14p7EUrW9_ts__ts 3900ms linear 1 normal forwards}@keyframes eNt14p7EUrW9_ts__ts { 0% {transform: translate(118.32337px,160.571114px) rotate(270deg) skewX(0deg) skewY(0.01deg) scale(0.813218,0)} 56.410256% {transform: translate(118.32337px,160.571114px) rotate(270deg) skewX(0deg) skewY(0.01deg) scale(0.813218,0)} 61.538462% {transform: translate(118.32337px,160.571114px) rotate(270deg) skewX(0deg) skewY(0.01deg) scale(0.813218,0.2)} 100% {transform: translate(118.32337px,160.571114px) rotate(270deg) skewX(0deg) skewY(0.01deg) scale(0.813218,0.2)}} #eNt14p7EUrW10_ts {animation: eNt14p7EUrW10_ts__ts 3900ms linear 1 normal forwards}@keyframes eNt14p7EUrW10_ts__ts { 0% {transform: translate(118.357278px,160.571114px) rotate(90deg) skewX(0deg) skewY(0.01deg) scale(0.813218,0)} 56.410256% {transform: translate(118.357278px,160.571114px) rotate(90deg) skewX(0deg) skewY(0.01deg) scale(0.813218,0)} 61.538462% {transform: translate(118.357278px,160.571114px) rotate(90deg) skewX(0deg) skewY(0.01deg) scale(0.813218,0.2)} 100% {transform: translate(118.357278px,160.571114px) rotate(90deg) skewX(0deg) skewY(0.01deg) scale(0.813218,0.2)}} #eNt14p7EUrW11_ts {animation: eNt14p7EUrW11_ts__ts 3900ms linear 1 normal forwards}@keyframes eNt14p7EUrW11_ts__ts { 0% {transform: translate(98.580544px,159.441285px) rotate(180deg) skewX(0deg) skewY(0.01deg) scale(0.813218,0)} 61.538462% {transform: translate(98.580544px,159.441285px) rotate(180deg) skewX(0deg) skewY(0.01deg) scale(0.813218,0)} 69.230769% {transform: translate(98.580544px,159.441285px) rotate(180deg) skewX(0deg) skewY(0.01deg) scale(0.813218,0.277758)} 100% {transform: translate(98.580544px,159.441285px) rotate(180deg) skewX(0deg) skewY(0.01deg) scale(0.813218,0.277758)}} #eNt14p7EUrW12_ts {animation: eNt14p7EUrW12_ts__ts 3900ms linear 1 normal forwards}@keyframes eNt14p7EUrW12_ts__ts { 0% {transform: translate(138.101175px,160.588579px) rotate(180deg) skewX(0deg) skewY(0.01deg) scale(0.813218,0)} 61.538462% {transform: translate(138.101175px,160.588579px) rotate(180deg) skewX(0deg) skewY(0.01deg) scale(0.813218,0)} 69.230769% {transform: translate(138.101175px,160.588579px) rotate(180deg) skewX(0deg) skewY(0.01deg) scale(0.813218,0.286053)} 100% {transform: translate(138.101175px,160.588579px) rotate(180deg) skewX(0deg) skewY(0.01deg) scale(0.813218,0.286053)}} #eNt14p7EUrW13_ts {animation: eNt14p7EUrW13_ts__ts 3900ms linear 1 normal forwards}@keyframes eNt14p7EUrW13_ts__ts { 0% {transform: translate(92.589618px,174.159681px) skewX(0deg) skewY(0.01deg) scale(0.813218,0)} 74.358974% {transform: translate(92.589618px,174.159681px) skewX(0deg) skewY(0.01deg) scale(0.813218,0)} 79.487179% {transform: translate(92.589618px,174.159681px) skewX(0deg) skewY(0.01deg) scale(0.813218,0.286053)} 100% {transform: translate(92.589618px,174.159681px) skewX(0deg) skewY(0.01deg) scale(0.813218,0.286053)}} #eNt14p7EUrW14_ts {animation: eNt14p7EUrW14_ts__ts 3900ms linear 1 normal forwards}@keyframes eNt14p7EUrW14_ts__ts { 0% {transform: translate(115.394451px,174.160727px) skewX(0deg) skewY(0.01deg) scale(0.813218,0)} 79.487179% {transform: translate(115.394451px,174.160727px) skewX(0deg) skewY(0.01deg) scale(0.813218,0)} 84.615385% {transform: translate(115.394451px,174.160727px) skewX(0deg) skewY(0.01deg) scale(0.813218,0.373936)} 100% {transform: translate(115.394451px,174.160727px) skewX(0deg) skewY(0.01deg) scale(0.813218,0.373936)}} #eNt14p7EUrW15_ts {animation: eNt14p7EUrW15_ts__ts 3900ms linear 1 normal forwards}@keyframes eNt14p7EUrW15_ts__ts { 0% {transform: translate(147.00448px,174.263613px) skewX(0deg) skewY(0.01deg) scale(0.813218,0)} 89.74359% {transform: translate(147.00448px,174.263613px) skewX(0deg) skewY(0.01deg) scale(0.813218,0)} 94.871795% {transform: translate(147.00448px,174.263613px) skewX(0deg) skewY(0.01deg) scale(0.813218,0.28513)} 100% {transform: translate(147.00448px,174.263613px) skewX(0deg) skewY(0.01deg) scale(0.813218,0.28513)}} #eNt14p7EUrW16_ts {animation: eNt14p7EUrW16_ts__ts 3900ms linear 1 normal forwards}@keyframes eNt14p7EUrW16_ts__ts { 0% {transform: translate(176.330956px,152.995495px) rotate(270deg) scale(0.813218,0)} 30.769231% {transform: translate(176.330956px,152.995495px) rotate(270deg) scale(0.813218,0)} 38.461538% {transform: translate(176.330956px,152.995495px) rotate(270deg) scale(0.813218,0.534623)} 100% {transform: translate(176.330956px,152.995495px) rotate(270deg) scale(0.813218,0.534623)}} #eNt14p7EUrW17 {animation: eNt14p7EUrW17_c_o 3900ms linear 1 normal forwards}@keyframes eNt14p7EUrW17_c_o { 0% {opacity: 0} 28.205128% {opacity: 0;animation-timing-function: cubic-bezier(0.25,1,0.25,1)} 33.333333% {opacity: 1} 100% {opacity: 1}} #eNt14p7EUrW18 {animation: eNt14p7EUrW18_c_o 3900ms linear 1 normal forwards}@keyframes eNt14p7EUrW18_c_o { 0% {opacity: 0} 43.589744% {opacity: 0;animation-timing-function: cubic-bezier(0.25,1,0.25,1)} 48.717949% {opacity: 1} 100% {opacity: 1}} #eNt14p7EUrW19 {animation: eNt14p7EUrW19_c_o 3900ms linear 1 normal forwards}@keyframes eNt14p7EUrW19_c_o { 0% {opacity: 0} 69.230769% {opacity: 0;animation-timing-function: cubic-bezier(0.25,1,0.25,1)} 74.358974% {opacity: 1} 100% {opacity: 1}} #eNt14p7EUrW20 {animation: eNt14p7EUrW20_c_o 3900ms linear 1 normal forwards}@keyframes eNt14p7EUrW20_c_o { 0% {opacity: 0} 69.230769% {opacity: 0;animation-timing-function: cubic-bezier(0.25,1,0.25,1)} 74.358974% {opacity: 1} 100% {opacity: 1}}
+                    </style>
+                <ellipse id="eNt14p7EUrW2" rx="7.880121" ry="8.980611" transform="matrix(.634475 0.006433-.005645 0.556726 60.497013 174.21142)" opacity="0" fill-opacity="0" stroke="currentColor" stroke-width="6"/><ellipse id="eNt14p7EUrW3" rx="7.880121" ry="8.980611" transform="matrix(.634475 0.006433-.005645 0.556726 92.589656 211.756714)" opacity="0" fill-opacity="0" stroke="currentColor" stroke-width="6"/><ellipse id="eNt14p7EUrW4" rx="7.880121" ry="8.980611" transform="matrix(.634475 0.006433-.005645 0.556726 147.004518 211.654852)" opacity="0" fill-opacity="0" stroke="currentColor" stroke-width="6"/><ellipse id="eNt14p7EUrW5" rx="7.880121" ry="8.980611" transform="matrix(.634475 0.006433-.005645 0.556726 115.343796 221.756201)" opacity="0" fill-opacity="0" stroke="currentColor" stroke-width="6"/><g id="eNt14p7EUrW6_ts" transform="translate(65.54745,174.175825) rotate(270) scale(0.813218,0)"><rect width="7.366985" height="113.77899" rx="0" ry="0" transform="translate(-3.664927,-0.000003)" stroke-width="0"/></g><g id="eNt14p7EUrW7_ts" transform="translate(176.330967,174.262111) rotate(180) scale(0.813218,0)"><rect width="7.366985" height="113.77899" rx="0" ry="0" transform="translate(-3.683477,-0.000002)" stroke-width="0"/></g><g id="eNt14p7EUrW8_ts" transform="translate(118.339291,174.160727) rotate(180) scale(0.813218,0)"><rect width="7.366985" height="113.77899" rx="0" ry="0" transform="translate(-3.683477,-0.000002)" stroke-width="0"/></g><g id="eNt14p7EUrW9_ts" transform="translate(118.32337,160.571114) rotate(270) skewX(0) skewY(0.01) scale(0.813218,0)"><rect width="7.366985" height="113.77899" rx="0" ry="0" transform="translate(-3.683477,0.08477)" stroke-width="0"/></g><g id="eNt14p7EUrW10_ts" transform="translate(118.357278,160.571114) rotate(90) skewX(0) skewY(0.01) scale(0.813218,0)"><rect width="7.366985" height="113.77899" rx="0" ry="0" transform="translate(-3.683477,0.08477)" stroke-width="0"/></g><g id="eNt14p7EUrW11_ts" transform="translate(98.580544,159.441285) rotate(180) skewX(0) skewY(0.01) scale(0.813218,0)"><rect width="7.366985" height="113.77899" rx="0" ry="0" transform="translate(-3.683477,0.08477)" stroke-width="0"/></g><g id="eNt14p7EUrW12_ts" transform="translate(138.101175,160.588579) rotate(180) skewX(0) skewY(0.01) scale(0.813218,0)"><rect width="7.366985" height="113.77899" rx="0" ry="0" transform="translate(-3.683477,0.08477)" stroke-width="0"/></g><g id="eNt14p7EUrW13_ts" transform="translate(92.589618,174.159681) skewX(0) skewY(0.01) scale(0.813218,0)"><rect width="7.366985" height="113.77899" rx="0" ry="0" transform="translate(-3.683446,-0.002615)" stroke-width="0"/></g><g id="eNt14p7EUrW14_ts" transform="translate(115.394451,174.160727) skewX(0) skewY(0.01) scale(0.813218,0)"><rect width="7.366985" height="113.77899" rx="0" ry="0" transform="translate(-3.683446,-0.002615)" stroke-width="0"/></g><g id="eNt14p7EUrW15_ts" transform="translate(147.00448,174.263613) skewX(0) skewY(0.01) scale(0.813218,0)"><rect width="7.366985" height="113.77899" rx="0" ry="0" transform="translate(-3.683446,-0.002615)" stroke-width="0"/></g><g id="eNt14p7EUrW16_ts" transform="translate(176.330956,152.995495) rotate(270) scale(0.813218,0)"><rect width="7.366985" height="113.77899" rx="0" ry="0" transform="translate(-3.683477,-0.000002)" stroke-width="0"/></g><ellipse id="eNt14p7EUrW17" rx="7.880121" ry="8.980611" transform="matrix(.634508 0 0 0.556755 176.330955 108.433247)" opacity="0" fill="#d2dbed" fill-opacity="0" stroke="currentColor" stroke-width="6"/><ellipse id="eNt14p7EUrW18" rx="7.880121" ry="8.980611" transform="matrix(.634475 0.006433-.005645 0.556726 242.210256 152.995483)" opacity="0" fill-opacity="0" stroke="currentColor" stroke-width="6"/><ellipse id="eNt14p7EUrW19" rx="7.880121" ry="8.980611" transform="matrix(.634475 0.006433-.005645 0.556726 138.101163 122.865722)" opacity="0" fill-opacity="0" stroke="currentColor" stroke-width="6"/><ellipse id="eNt14p7EUrW20" rx="7.880121" ry="8.980611" transform="matrix(.634475 0.006433-.005645 0.556726 98.580532 122.967107)" opacity="0" fill-opacity="0" stroke="currentColor" stroke-width="6"/></svg>    
+            </section>
+            <section id="about">
+                    <h2>About Me</h2>
+                    <a id="resumeButton">
+                        Resume
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>open-in-new</title><path d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z" /></svg>
+                    </a>
+                    <p>
+                        Hi, I'm Sean Fuhrman and I'm currently in my 3rd year studying Computer Engineering at 
+                        University of California San Diego. I'm also a research assistant 
+                        at the Systems Energy Efficiency Lab, where I work on
+                        Hyperdimensional-Computing and it's use for energy effecient machine learning. 
+                        <br><br>
+                        In my free time I like to ski, hike, and hangout with friends. In additon, I'm a member of the UCSD 
+                        Ski/Snowboard team and the UCSD Data Science Student Society, where I work with a team of students
+                        on a Shazam-like data science project.
+                    </p>      
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>
+                        <p class="skill">Python</p> 
+                        <button type="button" title="Python knowledge details">
+                            <p>Details</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m12 15.4l-6-6L7.4 8l4.6 4.6L16.6 8L18 9.4Z"/></svg>
+                        </button>
+                    </li>
+                    <li>
+                        <p class="skill">HTML | CSS | JavaScript</p>
+                        <button type="button" title="Python knowledge details">
+                            <p>Details</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m12 15.4l-6-6L7.4 8l4.6 4.6L16.6 8L18 9.4Z"/></svg>
+                        </button>  
+                    </li>
+                    <li>
+                        <p class="skill"> C/C++</p>
+                        <button type="button" title="Python knowledge details">
+                            <p>Details</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m12 15.4l-6-6L7.4 8l4.6 4.6L16.6 8L18 9.4Z"/></svg>
+                        </button>
+                    </li>
+                    <li>
+                        <p class="skill">7 years of programming experience</p>
+                        <button type="button" title="Python knowledge details">
+                            <p>Details</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m12 15.4l-6-6L7.4 8l4.6 4.6L16.6 8L18 9.4Z"/></svg>
+                        </button>
+                    </li>
+                </ul>   
+            </section>
+            <section id="projects">
+                <h2>Projects</h2>
+                <ul id="projectList">
+                    <li>
+                        <figure>
+                            <figcaption>LED Infinity Mirror</figcaption>
+                            <video class="projectImg" autoplay muted loop>
+                                <source src="/assets/LED_Infinity_Mirror.webm" type="video/webm">
+                            </video>
+                            
+                            <p>Designed and built a LED Infinity Mirror utlizing Arduino</p>
+                            <time></time>
+                        </figure>
+                        
+                    </li>
+                    <li>
+                        <figure>
+                            <figcaption>Room Automation System</figcaption>
+                            <img class="projectImg" src="/assets/Room_Automation.webp" alt="this is  a temporary photo"/> 
+                            <p>Designed, prototyped, and debugged microcontroller system designed to act as “assistant” via voice commands</p>
+                        </figure>
+                        
+                    </li>
+                    <li>
+                        <figure>
+                            <figcaption>Falling Aliens!!</figcaption>
+                            <img class="projectImg" src="/assets/Falling_Aliens!!!.webp" alt="Falling Aliens app icon"/> 
+
+                            <p>Designed and programmed a video game that was posted to Apple App Store</p>
+                        
+                    </li>
+                </ul>
+            </section>
+            <section id="education">
+                <h2>Education</h2>
+                <time>2020-Present</time>
+                <h3>University of California San Diego</h3>
+                <p>Bachelor of Science in Computer Engineering | GPA: 3.75</p>
+
+                <ul>
+                    <li>
+                        <p>
+                            <b>Coursework:</b> Object Oriented Programming, Advanced Data Structures & Algorithms, Computer Architecture,
+                            Probabilistic Machine Learning. 
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Awards:</b> Provost Honors
+                        </p>
+                    </li>
+                </ul>
+            </section>
+            <section id="work">
+                <h2>Experience</h2>
+                <time>July 2022-Present</time>
+                <h3>Research Internship, System Energy Efficiency Lab  </h3>
+                <p>Assisted with research on Hyper-Dimensional Computing and its use for energy-efficient processing-in-memory machine learning.</p>
+                
+                <time>2016</time>
+                <h3>Teacher’s Assistant Internship, Game-U    </h3>
+                <p>Teacher’s assistant for after school programs and summer camp to teach children video game programming</p>
+            </section>
+        
+
+            <section id="contact">
+                <h2>Contact</h2>
+                <p> If you've made it this far, might as well <a href="https://www.linkedin.com/in/sean-fuhrman/">connect!</a> or reach out to me at:</p>
+                <ul id="contactList">
+                    <li><p>Email: <a href="mailto:seantfuhrman@gmail.com">seantfuhrman@gmail.com</a></p></li>
+                    <li><p>Phone: <a href="tel:9082853692">+1-908-285-3692</a></p></li>
+                </ul>
+                <h3>or just contact me here:</h3>
+                <form id="contactForm" action="/server" method="POST"> 
+                    <fieldset>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" required/>
+                    </fieldset>
+                    <fieldset>
+                        <label id="emailLabel" for="email">Email:</label>
+                        <input type="email" name="email" id="email" required/>
+                    </fieldset>
+                   
+                    <label id="messageLabel" for="message">Message:</label>
+                    <textarea id="message" form="contactForm" name="message" required></textarea>
+                    <button id="submit" type="submit">Send!</button>
+                </fieldset>
+            </form>
+            </section>
+        </main>
+        <footer>
+            <hr/>
+            <p>This website is open-source on Github <a href="https://github.com/Sean-Fuhrman/seanfuhrman.com">here!</a></p>
+        </footer>
+    </body>
+</html>
+

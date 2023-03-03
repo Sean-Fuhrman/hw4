@@ -1,0 +1,45 @@
+* {
+    /* border: 1px dashed red; */
+    --background-color: rgb(19, 19, 19);
+    --primary-color: white;
+    --paragraph-color: rgb(179, 179, 179);
+    --secondary-color: lightblue;
+    --secondary-text-color: black;
+    --link-color : lightblue;
+
+
+    --heading-font: 'Andale Mono', 'Courier New', Courier, monospace;
+    --text-font: Arial, Helvetica, sans-serif;
+} 
+
+body {
+    background-color: var(--background-color);
+    color : var(--primary-color)
+}
+
+h1 {
+    padding-left: 10px;
+    font-size: 2rem;
+    font-family: var(--heading-font);
+    display: inline;
+}
+button {
+    background-color: var(--secondary-color);
+    border: none;
+    padding: 0.4rem 0.6rem;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+    gap : 8px;
+}
+
+.blogPost {
+    margin-left: 20px;
+}
+
+#add {
+    margin-left: 20px;
+}

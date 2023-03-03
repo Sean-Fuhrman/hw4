@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Sean Fuhrman's Personal Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Sean Fuhrman's Personal Website">
+        <link rel="icon" href="/favicon.ico">
+    </head>
+    <body>
+        <h1>Blog</h1>
+        <button type="button" id="add">Add post</button>
+
+        <template id="blogTemplate">
+            <div class="blogPost">
+                <h2></h2>
+                <p></p>
+                <p></p>
+                <button type="button" class="edit">Edit </button>
+                <button type="button" class="delete">Delete</button>
+            </div>
+          
+        </template>
+
+        <dialog id="deleteDialog">
+            <form method="dialog">
+                <p>Delete post?</p>
+                <button type="submit" value="cancel">Cancel</button>
+                <button type="submit" value="confirm">Confirm</button>
+            </form>
+        </dialog>
+
+        <dialog id="editDialog">
+            <form method="dialog">
+                <label for="editTitle">Blog Title:</label>
+                <input id="editTitle" type="text">
+                <label for="editDate">Blog Date:</label>
+                <input id="editDate" type="date">
+                <br>
+                <label for="editSummary">Blog Summary:</label>
+                <textarea id="editSummary"></textarea>
+                <br>
+                <button type="submit" value="cancel">Cancel</button>
+                <button type="submit" value="confirm">Confirm</button>
+            </form>
+        </dialog>
+        </dialog>
+
+        <dialog id="createDialog">
+            <form method="dialog">
+                <label for="createTitle">Blog Title:</label>
+                <input id="createTitle" type="text">
+                <label for="createDate">Blog Date:</label>
+                <input id="createDate" type="date">
+                <br>
+                <label for="createSummary">Blog Summary:</label>
+                <textarea id="createSummary"></textarea>
+                <br>
+                <button type="submit" value="cancel">Cancel</button>
+                <button type="submit" value="confirm">Confirm</button>
+            </form>
+        </dialog>
+    </body>
+ 
+    <script type="module" src="/scripts/blog.js"></script>
+</html> 

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Sean Fuhrman's Personal Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Sean Fuhrman's Personal Website">
+        <link rel="icon" href="/favicon.ico">
+    </head>
+    <body>
+        
+        <button id="alert" type="button"> Alert</button>
+        <button id="confirm" type="button"> Confirm</button>
+        <button id="prompt" type="button"> Prompt</button>
+
+        <hr> 
+
+        <output></output>
+
+        <dialog id="alertDialog">
+            <p> Alert Pressed!</p>
+            <button id="alertButton"> Ok </button>
+        </dialog>
+        <dialog id="confirmDialog">
+            <form method="dialog">
+                <p>Can you confirm?</p>
+                <button type="submit" value="False">Cancel</button>
+                <button type="submit" value="True">Confirm</button>
+            </form>
+        </dialog>
+        <dialog id="promptDialog">
+            <form method="dialog">
+                <label for="promptInput">Can I prompt you?</label>
+                <input id="promptInput" type="text">
+                <br>
+                <button type="submit" value="cancel">Cancel</button>
+                <button type="submit" value="default">Confirm</button>
+            </form>
+        </dialog>
+    </body>
+    <script type="module" src="/scripts/purify.min.js"></script>
+    <script type="module" src="/scripts/customDialogs.js"></script>
+</html> 
