@@ -4,7 +4,7 @@ let editDialog = document.getElementById("editDialog");
 let deleteDialog = document.getElementById("deleteDialog");
 
 
-let blogArray = [];
+const blogArray = [];
 
 let inputTitle = "";
 let inputDate = "";
