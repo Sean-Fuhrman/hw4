@@ -133,7 +133,7 @@ document.addEventListener("beforeunload", () => {
     localStorage.setItem("blogArray", JSON.stringify(blogArray));
 });
 
-document.addEventListener("DOMContentLoaded", () => {
+window.addEventListener("load", () => {
     let blogArrayString = localStorage.getItem("blogArray");
     blogArray = JSON.parse(blogArrayString);
     updatePostings();
